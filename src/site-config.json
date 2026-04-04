@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Legacy General Contractor",
+    "phone": "555-gen-r94",
+    "category": "general-contractor",
+    "city": "Salt Lake City",
+    "state": "UT"
+  },
+  "design": {
+    "preset": {
+      "id": "general-contractor-heritage-craft",
+      "categoryGroup": "general-contractor",
+      "name": "Heritage Craft",
+      "recipeFile": "general-contractor/heritage-craft.astro",
+      "colors": {
+        "primary": "#4A5A6B",
+        "primaryDark": "#2c3640",
+        "primaryLight": "#c0c5cb",
+        "secondary": "#3f4d5b",
+        "accent": "#4A5A6B",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#3f4d5b",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "general-contractor/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Building Trust in Salt Lake Valley",
+      "heroSubline": "Legacy General Contractor brings reliability to every home project. Locally owned, we understand Utah's unique climate and housing needs.",
+      "aboutTitle": "Rooted in Salt Lake City",
+      "aboutText": [
+        "Founded in 2012, Legacy General Contractor started as a small family operation repairing bungalows in The Avenues. Today, we've grown into a trusted name across Salt Lake Valley while maintaining that personal touch.",
+        "We approach every project like it's our own home - with careful attention to Utah's freeze-thaw cycles, seismic risks, and dry air that can wreak havoc on materials. Our team lives here too, so we build for longevity.",
+        "From volunteering at Liberty Park cleanups to sponsoring youth sports in Sugar House, we're committed to strengthening the communities we serve."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Smart Builds",
+          "description": "We use materials and techniques specifically suited for Utah's harsh winters and dry summers."
+        },
+        {
+          "title": "Neighborhood Specialists",
+          "description": "From Avenues bungalows to Draper's new developments, we know local architecture inside out."
+        },
+        {
+          "title": "Transparent Process",
+          "description": "Daily updates and honest timelines keep you informed at every stage."
+        },
+        {
+          "title": "Earthquake-Ready",
+          "description": "All structural work meets Utah's strict seismic standards for your safety."
+        }
+      ],
+      "ctaHeadline": "Ready to Start Your Project?",
+      "ctaSubline": "Get a free consultation with our local team today."
+    },
+    "services": [
+      {
+        "slug": "home-additions",
+        "name": "Home Additions",
+        "shortDescription": "Expand your living space while preserving your home's character.",
+        "description": "Whether you're adding a sunroom to enjoy Utah's brief summers or creating space for a growing family, we design additions that blend seamlessly with your existing structure. In Sugar House's ranch homes, we often build up rather than out to maintain yard space. For Avenues bungalows, we carefully match original moldings and woodwork.\n\nWe navigate Salt Lake County's permitting process for you, paying special attention to seismic requirements and snow load calculations. Our additions account for Utah's 50°F temperature swings between day and night, using materials that won't warp or crack.",
+        "process": [
+          "Step 1: Site evaluation including soil testing for Utah's clay-heavy ground",
+          "Step 2: Design consultation respecting historical districts' guidelines where applicable",
+          "Step 3: Foundation work with added seismic bracing",
+          "Step 4: Construction with moisture-resistant materials for our dry climate"
+        ],
+        "benefits": [
+          "Increased living space without moving",
+          "Energy-efficient designs for Utah seasons",
+          "Seismic-safe construction",
+          "Historic district compliance"
+        ],
+        "faq": [
+          {
+            "question": "How do additions handle Utah's snow loads?",
+            "answer": "We engineer roofs to support up to 30 lbs/sq ft - exceeding typical Wasatch Front snowfall. Proper insulation prevents ice dams common in our freeze-thaw cycles."
+          },
+          {
+            "question": "Can you match my older home's style?",
+            "answer": "Yes, we source materials from local mills specializing in historic reproductions, particularly for Craftsman and mid-century modern homes common in our area."
+          }
+        ]
+      },
+      {
+        "slug": "kitchen-remodels",
+        "name": "Kitchen Remodels",
+        "shortDescription": "Functional, beautiful kitchens designed for Utah lifestyles.",
+        "description": "Utah's combination of large families and frequent hosting calls for kitchens that work hard. We design spaces with durable quartz counters that withstand our dry air (unlike wood that shrinks), and cabinet finishes resistant to temperature fluctuations. For homes in Draper and Lehi's newer developments, we create open-concept spaces perfect for gatherings.\n\nIn older Sugar House cottages, we carefully preserve original built-ins while updating plumbing and electrical. Every remodel includes proper ventilation - crucial for our inversion season when opening windows isn't an option. We install range hoods that actually vent outside, not just recirculate, to handle winter cooking.",
+        "process": [
+          "Step 1: Lifestyle assessment - how your family actually uses the space",
+          "Step 2: Material selection focused on low-maintenance options for our climate",
+          "Step 3: Careful demolition preserving original elements where possible",
+          "Step 4: Installation with attention to seismic securing of heavy items"
+        ],
+        "benefits": [
+          "Improved functionality for Utah's family-centric culture",
+          "Materials that won't crack in dry air",
+          "Proper ventilation for inversion season",
+          "Storage solutions for bulk food storage common locally"
+        ],
+        "faq": [
+          {
+            "question": "Do you work with local suppliers?",
+            "answer": "We source from Utah-based companies whenever possible, including granite from Little Cottonwood Canyon and cabinetry made in Ogden."
+          },
+          {
+            "question": "How long will I be without a kitchen?",
+            "answer": "Most remodels take 4-6 weeks. We set up temporary cooking spaces and coordinate with local meal prep services many clients use during construction."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-renovations",
+        "name": "Bathroom Renovations",
+        "shortDescription": "Water-wise updates that handle Utah's hard water.",
+        "description": "Utah's notorious hard water destroys fixtures prematurely. We install water softener-compatible materials and finishes that resist mineral buildup. For older homes in The Avenues, we preserve historic charm while replacing galvanized pipes prone to freezing. In Provo's student housing areas, we create durable, low-maintenance baths that withstand heavy use.\n\nEvery bathroom includes proper ventilation to combat mold in our dry-yet-humid shower environments. We use waterproofing methods exceeding code to prevent leaks into Utah's expansive soils. For ski cabins and mountain homes, we install heated floors that work efficiently even during prolonged cold snaps.",
+        "process": [
+          "Step 1: Plumbing assessment focusing on freeze vulnerability",
+          "Step 2: Hard water solution planning",
+          "Step 3: Mold-resistant material selection",
+          "Step 4: Installation with extra waterproofing for our climate"
+        ],
+        "benefits": [
+          "Fixtures designed for hard water longevity",
+          "Freeze-proof plumbing",
+          "Mold-resistant construction",
+          "Water-saving features for drought conditions"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my historic home's tile?",
+            "answer": "We work with Salt Lake artisans who recreate vintage tile patterns found in 1920s-40s bungalows, using modern materials that last longer."
+          },
+          {
+            "question": "How do you prevent frozen pipes?",
+            "answer": "We insulate pipes properly and, when needed, install heat trace systems - especially important for homes in colder areas like Sandy benches."
+          }
+        ]
+      },
+      {
+        "slug": "foundation-repair",
+        "name": "Foundation Repair",
+        "shortDescription": "Solutions for Utah's problematic soils and seismic activity.",
+        "description": "Salt Lake Valley's clay-rich soil expands and contracts dramatically with moisture changes, causing foundation issues. We specialize in solutions for our unique geology, from helical piers in Sandy's unstable slopes to perimeter drains for homes near the Jordan River. All repairs meet Utah's strict seismic codes - crucial in this earthquake-prone region.\n\nWe address common local issues like cracks from the 2020 Magna quake, or settling in Provo's older neighborhoods. Our methods account for both upward pressure from expansive soils and lateral forces from seismic activity. For homes in Draper's new developments, we correct builder shortcuts that didn't properly prepare the soil before construction.",
+        "process": [
+          "Step 1: Comprehensive evaluation including seismic risk assessment",
+          "Step 2: Soil testing to determine best solution",
+          "Step 3: Repair using Utah-approved seismic methods",
+          "Step 4: Final inspection and earthquake readiness verification"
+        ],
+        "benefits": [
+          "Stabilization for expansive soils",
+          "Earthquake-resistant solutions",
+          "Prevents moisture intrusion",
+          "Preserves property value"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if I need foundation work?",
+            "answer": "Look for doors that stick seasonally - common with Utah's soil movement. We offer free evaluations, especially important for homes built before modern seismic standards."
+          },
+          {
+            "question": "Will this prevent earthquake damage?",
+            "answer": "While nothing guarantees safety, our retrofits significantly improve your home's chances of surviving a quake intact, based on University of Utah seismic studies."
+          }
+        ]
+      },
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Durable roofs built for Utah's snow loads and sun exposure.",
+        "description": "Utah roofs face unique challenges - heavy winter snows followed by intense summer UV radiation. We install roofs rated for at least 30 lbs/sq ft snow load, with proper ice barrier protection for freeze-thaw cycles. Materials are chosen for both durability against hail (common in spring storms) and energy efficiency during hot summers.\n\nFor historic districts like Capitol Hill, we preserve architectural details while upgrading underlying structures. In Sandy's bench areas, we reinforce against high winds. Every roof includes proper ventilation to prevent ice dams - a major cause of winter leaks. We dispose of old materials responsibly through Utah's construction recycling programs.",
+        "process": [
+          "Step 1: Inspection including attic ventilation assessment",
+          "Step 2: Snow load calculations specific to your location",
+          "Step 3: Material selection balancing durability and aesthetics",
+          "Step 4: Installation with extra ice/water shield in valleys and edges"
+        ],
+        "benefits": [
+          "Engineered for local weather extremes",
+          "Energy-efficient options reduce cooling costs",
+          "Proper ventilation prevents ice dams",
+          "Historical district compliance"
+        ],
+        "faq": [
+          {
+            "question": "How often should Utah roofs be replaced?",
+            "answer": "Typically 20-25 years depending on material. South-facing slopes degrade faster due to intense sun exposure - we'll show you wear patterns during inspection."
+          },
+          {
+            "question": "Can you match my historic home's roof?",
+            "answer": "We source period-appropriate materials like real cedar shakes for Craftsman homes, treated for modern fire codes while maintaining historic character."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Miriam K.",
+        "rating": 5,
+        "service": "Kitchen Remodel",
+        "text": "Legacy transformed our 1950s Sugar House kitchen without losing its charm. They found matching glass-front cabinets and installed a vent that actually works during inversion season. Two winters later, everything still looks new despite the dry air.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Foundation Repair",
+        "text": "After the Magna earthquake, our Sandy home developed cracks. Legacy not only fixed the foundation but added seismic retrofitting. When the 2023 quake hit, we had zero new damage - worth every penny.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "The Nguyen Family",
+        "rating": 5,
+        "service": "Bathroom Renovation",
+        "text": "They redid both bathrooms in our Provo rental property with materials that withstand hard water and college students. A year later, no mineral buildup or damage despite heavy use. Their waterproofing method is bulletproof.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Sarah & Mark W.",
+        "rating": 5,
+        "service": "Home Addition",
+        "text": "Legacy added a master suite to our Avenues bungalow that looks like it's always been there. They matched the original woodwork perfectly and engineered the foundation for our steep slope. Even during last winter's deep freeze, no plumbing issues.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Dave R.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "Our Draper roof survived this winter's record snowfall without a single leak. Legacy used heavier-duty underlayment than our neighbors' roofs, and it shows. Their crew cleaned up so well our HOA complimented us.",
+        "date": "2024-08-30"
+      },
+      {
+        "name": "Lindsey B.",
+        "rating": 5,
+        "service": "Bathroom Renovation",
+        "text": "I'll never use another contractor after Legacy redid our 9th and 9th bathroom. They preserved the original clawfoot tub while adding modern water-efficient fixtures. Found vintage-looking tile that doesn't show our hard water stains. Perfection.",
+        "date": "2024-07-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Salt Lake General Contractor | Legacy Construction",
+        "description": "Trusted general contractor serving Salt Lake Valley with climate-smart home renovations and repairs since 2012."
+      },
+      "about": {
+        "title": "About Our Salt Lake City Contracting Team",
+        "description": "Learn how Legacy's local expertise makes us ideal for Utah home projects from foundations to roofs."
+      },
+      "services": {
+        "title": "Utah Home Renovation Services | Legacy",
+        "description": "Specialized general contracting services designed for Salt Lake Valley's climate and housing types."
+      },
+      "contact": {
+        "title": "Contact Legacy Contractors in Salt Lake",
+        "description": "Schedule your free consultation with Salt Lake City's trusted general contractor team today."
+      },
+      "reviews": {
+        "title": "Legacy Contractor Reviews | Salt Lake City",
+        "description": "See why Utah homeowners trust Legacy for quality construction that stands up to local conditions."
+      },
+      "service-areas": {
+        "title": "Legacy Service Areas | Salt Lake Valley",
+        "description": "Serving Sandy, Draper, Lehi, Provo and all Salt Lake County with quality construction services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Sandy",
+        "slug": "sandy-ut",
+        "state": "UT",
+        "content": "Legacy General Contractor proudly serves Sandy, UT, a thriving suburban community with a population of approximately 96,000 residents. Many homes in Sandy were built during the 1980s and 1990s, offering opportunities for renovations, upgrades, and general contracting services tailored to older properties. Given the cold, snowy winters and frequent inversions, our team specializes in weather-resistant solutions, including roofing, insulation, and energy-efficient upgrades to keep homes comfortable year-round.",
+        "localContext": "Sandy is known for its family-friendly neighborhoods and its proximity to the Wasatch Mountains, making outdoor recreation a big part of local life.",
+        "nearbyAreas": [
+          "Draper",
+          "Midvale",
+          "Cottonwood Heights"
+        ]
+      },
+      {
+        "city": "Draper",
+        "slug": "draper-ut",
+        "state": "UT",
+        "content": "Draper, UT, is a rapidly growing city with a population of around 50,000, featuring newer developments built between the 1990s and 2020s. Legacy General Contractor provides expert construction and remodeling services tailored to modern homes in this area. From custom home builds to high-end renovations, we help homeowners navigate the unique challenges of newer construction, including HOA compliance and modern design trends. Draper's cold winters and inversions make durable, energy-efficient builds a priority for our team.",
+        "localContext": "Draper is a mix of suburban residential areas and commercial growth, with easy access to the I-15 corridor and tech industry hubs.",
+        "nearbyAreas": [
+          "Sandy",
+          "Riverton",
+          "Bluffdale"
+        ]
+      },
+      {
+        "city": "Lehi",
+        "slug": "lehi-ut",
+        "state": "UT",
+        "content": "Lehi, UT, is a booming tech corridor with a population of approximately 80,000, experiencing rapid growth and new housing developments. Legacy General Contractor specializes in serving this dynamic market with new construction, remodels, and commercial projects tailored to fast-paced expansion. Our team understands the unique demands of tech professionals and growing families in the area, ensuring high-quality builds that stand up to Lehi's cold, snowy winters and inversion-prone climate.",
+        "localContext": "Lehi is home to Silicon Slopes, attracting young professionals and fueling demand for modern, efficient housing solutions.",
+        "nearbyAreas": [
+          "American Fork",
+          "Eagle Mountain",
+          "Saratoga Springs"
+        ]
+      },
+      {
+        "city": "Provo",
+        "slug": "provo-ut",
+        "state": "UT",
+        "content": "Provo, UT, is a vibrant city with a population of about 115,000, anchored by Brigham Young University (BYU) and featuring diverse housing options. Legacy General Contractor serves students, faculty, and long-term residents with renovations, multi-family projects, and historic home restorations. The cold winters and inversions in Provo require specialized construction approaches, and our team excels in weatherproofing and energy-efficient upgrades to enhance comfort and durability.",
+        "localContext": "Provo's mix of historic homes and student housing creates unique opportunities for remodeling and adaptive reuse projects.",
+        "nearbyAreas": [
+          "Orem",
+          "Springville",
+          "Pleasant Grove"
+        ]
+      },
+      {
+        "city": "Orem",
+        "slug": "orem-ut",
+        "state": "UT",
+        "content": "Orem, UT, is a family-oriented city with a population of around 98,000, known for its strong community and educational institutions. Legacy General Contractor provides a range of services, from home additions to kitchen remodels, tailored to Orem's mid-century and newer housing stock. The cold, snowy winters and inversions in the area make proper insulation and weatherization critical, and our team ensures homes are built to last.",
+        "localContext": "Orem is often called 'Family City USA,' with a focus on community and quality living spaces.",
+        "nearbyAreas": [
+          "Provo",
+          "Lindon",
+          "Pleasant Grove"
+        ]
+      },
+      {
+        "city": "American Fork",
+        "slug": "american-fork-ut",
+        "state": "UT",
+        "content": "American Fork, UT, is a growing city with a population of approximately 35,000, offering a mix of historic charm and modern development. Legacy General Contractor serves the area with custom home builds, remodels, and commercial projects designed to meet the needs of its expanding community. The cold winters and inversions require durable construction, and our team prioritizes materials and techniques that enhance longevity and energy efficiency.",
+        "localContext": "American Fork is known for its scenic views of Mount Timpanogos and its blend of small-town feel with urban amenities.",
+        "nearbyAreas": [
+          "Lehi",
+          "Pleasant Grove",
+          "Alpine"
+        ]
+      },
+      {
+        "city": "Riverton",
+        "slug": "riverton-ut",
+        "state": "UT",
+        "content": "Riverton, UT, is a suburban city with a population of around 45,000, featuring a mix of established neighborhoods and new developments. Legacy General Contractor provides comprehensive construction services, from basement finishes to full custom homes, tailored to Riverton's growing demand. The cold, snowy winters and inversions make proper insulation and weatherproofing essential, and our team ensures homes are built to withstand Utah's harsh climate.",
+        "localContext": "Riverton offers a quiet, family-friendly atmosphere with easy access to the Salt Lake Valley.",
+        "nearbyAreas": [
+          "Draper",
+          "Herriman",
+          "South Jordan"
+        ]
+      },
+      {
+        "city": "South Jordan",
+        "slug": "south-jordan-ut",
+        "state": "UT",
+        "content": "South Jordan, UT, is a thriving city with a population of approximately 80,000, known for its master-planned communities and high-quality schools. Legacy General Contractor specializes in luxury home builds, remodels, and outdoor living projects that cater to South Jordan's upscale market. The cold winters and inversions require durable, energy-efficient construction, and our team delivers solutions that enhance comfort and sustainability.",
+        "localContext": "South Jordan combines suburban tranquility with modern amenities, including the Daybreak community.",
+        "nearbyAreas": [
+          "Riverton",
+          "West Jordan",
+          "Herriman"
+        ]
+      },
+      {
+        "city": "Herriman",
+        "slug": "herriman-ut",
+        "state": "UT",
+        "content": "Herriman, UT, is a fast-growing city with a population of around 60,000, featuring newer homes and expansive lots. Legacy General Contractor provides custom home builds, remodels, and outdoor living projects tailored to Herriman's unique landscape. The cold winters and inversions demand robust construction, and our team emphasizes weather-resistant materials and energy efficiency to ensure year-round comfort.",
+        "localContext": "Herriman is known for its open spaces, mountain views, and family-friendly neighborhoods.",
+        "nearbyAreas": [
+          "Riverton",
+          "South Jordan",
+          "Bluffdale"
+        ]
+      },
+      {
+        "city": "Pleasant Grove",
+        "slug": "pleasant-grove-ut",
+        "state": "UT",
+        "content": "Pleasant Grove, UT, is a charming city with a population of approximately 40,000, offering a mix of historic and newer homes. Legacy General Contractor serves the area with remodels, additions, and custom builds that enhance its small-town appeal. The cold winters and inversions require durable construction, and our team prioritizes insulation, roofing, and weatherproofing to protect homes from the elements.",
+        "localContext": "Pleasant Grove is known as the 'Garden City' for its lush landscapes and tight-knit community.",
+        "nearbyAreas": [
+          "Orem",
+          "American Fork",
+          "Lindon"
+        ]
+      },
+      {
+        "city": "Midvale",
+        "slug": "midvale-ut",
+        "state": "UT",
+        "content": "Midvale, UT, is a centrally located city with a population of around 36,000, featuring a mix of mid-century and newer homes. Legacy General Contractor provides remodeling, renovations, and commercial construction services tailored to Midvale's diverse housing stock. The cold winters and inversions make energy-efficient upgrades a priority, and our team ensures homes are comfortable and cost-effective year-round.",
+        "localContext": "Midvale serves as a hub for the Salt Lake Valley, offering convenience and accessibility.",
+        "nearbyAreas": [
+          "Sandy",
+          "Murray",
+          "Cottonwood Heights"
+        ]
+      },
+      {
+        "city": "Cottonwood Heights",
+        "slug": "cottonwood-heights-ut",
+        "state": "UT",
+        "content": "Cottonwood Heights, UT, is a scenic city with a population of approximately 34,000, nestled against the Wasatch Mountains. Legacy General Contractor specializes in high-end remodels, custom homes, and outdoor living projects that take advantage of the area's natural beauty. The cold winters and inversions require durable construction, and our team focuses on weather-resistant materials and energy efficiency.",
+        "localContext": "Cottonwood Heights offers easy access to skiing, hiking, and outdoor recreation, making it a popular choice for active families.",
+        "nearbyAreas": [
+          "Sandy",
+          "Midvale",
+          "Holladay"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "home-additions": "/images/service-home-additions.webp",
+      "kitchen-remodels": "/images/service-kitchen-remodels.webp",
+      "bathroom-renovations": "/images/service-bathroom-renovations.webp",
+      "foundation-repair": "/images/service-foundation-repair.webp",
+      "roof-replacement": "/images/service-roof-replacement.webp"
+    },
+    "servicesResponsive": {
+      "home-additions": {
+        "src": "/images/service-home-additions.webp",
+        "srcset": "/images/service-home-additions-400w.webp 400w, /images/service-home-additions-800w.webp 800w, /images/service-home-additions-1200w.webp 1200w, /images/service-home-additions.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "kitchen-remodels": {
+        "src": "/images/service-kitchen-remodels.webp",
+        "srcset": "/images/service-kitchen-remodels-400w.webp 400w, /images/service-kitchen-remodels-800w.webp 800w, /images/service-kitchen-remodels-1200w.webp 1200w, /images/service-kitchen-remodels.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-renovations": {
+        "src": "/images/service-bathroom-renovations.webp",
+        "srcset": "/images/service-bathroom-renovations-400w.webp 400w, /images/service-bathroom-renovations-800w.webp 800w, /images/service-bathroom-renovations-1200w.webp 1200w, /images/service-bathroom-renovations.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "foundation-repair": {
+        "src": "/images/service-foundation-repair.webp",
+        "srcset": "/images/service-foundation-repair-400w.webp 400w, /images/service-foundation-repair-800w.webp 800w, /images/service-foundation-repair-1200w.webp 1200w, /images/service-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-replacement": {
+        "src": "/images/service-roof-replacement.webp",
+        "srcset": "/images/service-roof-replacement-400w.webp 400w, /images/service-roof-replacement-800w.webp 800w, /images/service-roof-replacement-1200w.webp 1200w, /images/service-roof-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
